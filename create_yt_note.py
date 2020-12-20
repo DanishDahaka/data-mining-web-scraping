@@ -157,5 +157,9 @@ def create_note(link):
     
     return final
 
+# testing with Data Science video from YouTube
+print(create_note('https://www.youtube.com/watch?v=zMfP-6a7fTo'))
 
-webbrowser.open(create_note(link))
+
+# uncomment to open a bear note with a URL from the clipboard
+#webbrowser.open(create_note(link))
